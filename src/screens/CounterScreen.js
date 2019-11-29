@@ -18,8 +18,10 @@ const reducer = (state, action) => {
 const CounterScreen = () => {
   //   Reducer
   const [state, dispatch] = useReducer (reducer, 0);
+
   //useState
   // const [count, setCount] = useState (0);
+
   //Do not do that
   //   let count = 0;
   return (
